@@ -9,7 +9,7 @@ WebDriver driver;
 	
 	driver = new ChromeDriver();
 	driver.get("https://amazon.com");
-	
+	System.out.println("Testing");
 	driver.close();
 		
 	}
