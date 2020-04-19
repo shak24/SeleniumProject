@@ -9,12 +9,16 @@ WebDriver driver;
 	
 	driver = new ChromeDriver();
 	driver.get("https://amazon.com");
+	
+	driver.close();
 		
 	}
 	public static void main(String[] args) {
 		
 	SeleniumTest obj = new SeleniumTest();
 	obj.launchBrowser();
+	
+	
 	
 	}
 
