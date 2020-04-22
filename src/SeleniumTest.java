@@ -17,7 +17,7 @@ WebDriver driver;
 		
 	SeleniumTest obj = new SeleniumTest();
 	obj.launchBrowser();
-	
+	//driver.close();
 	
 	
 	}
