@@ -28,7 +28,7 @@ public class ShakirSelenium {
 		driver.findElement(By.id("empsearch_supervisor_name")).sendKeys("mr. chow");
 		Thread.sleep(5000);
 		Select include = new Select(driver.findElement(By.id("empsearch_termination")));
-		include.selectByValue("3");
+		include.selectByValue("2");
 		Thread.sleep(5000);
 		driver.findElement(By.id("searchBtn")).click();
 		driver.switchTo().defaultContent();
